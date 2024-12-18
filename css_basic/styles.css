@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    flex-direction: column; /* Optional: to arrange children in a column */
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    /* flex: 1; Optional: to make main take up remaining space */
+  }
+  
