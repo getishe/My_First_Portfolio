@@ -7,19 +7,25 @@ body {
     flex: none !important;
   } */
   main {
-    border-radius: 2px !important;
-    /* border: saddlebrown solid !important; */
+    border-radius: 18px ;
+    border: 20px green solid !important;
     display: flex;
     flex-direction: row;
     flex: auto;
+  
     /* flex: 1; Optional: to make main take up remaining space */
   }
 article{
-  /* border: green solid  !important; */
+  border-radius: 8px !important;
+  /* border: yellow solid  !important;
+   */
+  border: 10px yellow solid !important;
+  
   flex: 2; /* Optional: to make article take up remaining space */
   overflow-y: auto !important;
 }
 aside{
   flex: 1; /* Optional: to make aside take up remaining space */
   overflow-y: auto;
+  border: purple solid !important;
 }
