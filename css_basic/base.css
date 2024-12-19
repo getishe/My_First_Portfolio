@@ -49,7 +49,9 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+	border-spacing : 10px;
+	border-collapse: separate;
+	margin: 0 auto;
 }
 
 
