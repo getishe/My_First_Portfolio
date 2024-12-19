@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column; /* Optional: to arrange children in a column */
+    height: 100vh;
   }
   /* header, footer {
     flex: none !important;
