@@ -2,16 +2,23 @@ body {
     display: flex;
     flex-direction: column; /* Optional: to arrange children in a column */
   }
-  
+  /* header, footer {
+    flex: none !important;
+  } */
   main {
+    border-radius: 2px !important;
+    border: saddlebrown solid !important;
     display: flex;
     flex-direction: row;
     flex: auto;
     /* flex: 1; Optional: to make main take up remaining space */
   }
 article{
+  border: green solid  !important;
   flex: 2; /* Optional: to make article take up remaining space */
+  overflow-y: auto !important;
 }
 aside{
   flex: 1; /* Optional: to make aside take up remaining space */
+  overflow-y: auto;
 }
