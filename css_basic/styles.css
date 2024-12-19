@@ -8,14 +8,14 @@ body {
   } */
   main {
     border-radius: 2px !important;
-    border: saddlebrown solid !important;
+    /* border: saddlebrown solid !important; */
     display: flex;
     flex-direction: row;
     flex: auto;
     /* flex: 1; Optional: to make main take up remaining space */
   }
 article{
-  border: green solid  !important;
+  /* border: green solid  !important; */
   flex: 2; /* Optional: to make article take up remaining space */
   overflow-y: auto !important;
 }
