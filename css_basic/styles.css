@@ -6,9 +6,12 @@ body {
   /* header, footer {
     flex: none !important;
   } */
+   .logo{
+    display: block !important;
+   }
   main {
     border-radius: 18px ;
-    border: 20px green solid !important;
+    border: 20px rgb(222, 224, 222) solid !important;
     display: flex;
     flex-direction: row;
     flex: auto;
@@ -19,7 +22,7 @@ article{
   border-radius: 8px !important;
   /* border: yellow solid  !important;
    */
-  border: 10px yellow solid !important;
+  /* border: 10px yellow solid !important; */
   
   flex: 2; /* Optional: to make article take up remaining space */
   overflow-y: auto !important;
@@ -27,7 +30,7 @@ article{
 aside{
   flex: 1; /* Optional: to make aside take up remaining space */
   overflow-y: auto;
-  border: 10px purple solid !important;
+  /* border: 10px purple solid !important; */
 }
 h2.play{
 	cursor: pointer;
